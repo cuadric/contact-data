@@ -1,0 +1,159 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/company-general-contact-data\n"
+"POT-Creation-Date: 2013-01-16 21:11:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: contact-data.php:110
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: contact-data.php:148
+msgid "Contact data saved."
+msgstr ""
+
+#: contact-data.php:172
+msgid "The data"
+msgstr ""
+
+#: contact-data.php:173
+msgid "Usage"
+msgstr ""
+
+#: contact-data.php:208
+msgid "Displays the 'Follow Me' buttons of those social networks you defined"
+msgstr ""
+
+#: contact-data.php:209
+msgid "Follow Me Icons"
+msgstr ""
+
+#: contact-data.php:242
+msgid "Title:"
+msgstr ""
+
+#: data-form.php:7
+msgid "Contact information"
+msgstr ""
+
+#: data-form.php:13
+msgid "Business Name"
+msgstr ""
+
+#: data-form.php:22
+msgid "Website"
+msgstr ""
+
+#: data-form.php:26
+msgid "URL of the corporate Website . e.g. www.mysite.com"
+msgstr ""
+
+#: data-form.php:32
+msgid "Address"
+msgstr ""
+
+#: data-form.php:36
+msgid "Street, nunmber, town, building, etc."
+msgstr ""
+
+#: data-form.php:42
+msgid "Address (cont.)"
+msgstr ""
+
+#: data-form.php:46
+msgid "Postal code, city, state, etc."
+msgstr ""
+
+#: data-form.php:52
+msgid "eMail"
+msgstr ""
+
+#: data-form.php:61
+msgid "Phone number"
+msgstr ""
+
+#: data-form.php:70
+msgid "Fax"
+msgstr ""
+
+#: data-form.php:79
+msgid "Google Map"
+msgstr ""
+
+#: data-form.php:93
+msgid "Social Networks"
+msgstr ""
+
+#: data-form.php:99
+msgid "Facebook"
+msgstr ""
+
+#: data-form.php:108
+msgid "Twitter"
+msgstr ""
+
+#: data-form.php:117
+msgid "LinkedIn"
+msgstr ""
+
+#: data-form.php:126
+msgid "Google Plus"
+msgstr ""
+
+#: data-form.php:135
+msgid "YouTube"
+msgstr ""
+
+#: data-form.php:144
+msgid "Vimeo"
+msgstr ""
+
+#: data-form.php:153
+msgid "RSS"
+msgstr ""
+
+#: data-form.php:164
+msgid "Save Changes"
+msgstr ""
+
+#: data-usage.php:4
+msgid "How to use this values in your templates:"
+msgstr ""
+
+#: data-usage.php:6
+msgid ""
+"This function, without parameters, return an array with all the contact "
+"field data:"
+msgstr ""
+
+#: data-usage.php:8
+msgid ""
+"From this you can fetch the individual contact data values. Note de array "
+"syntax."
+msgstr ""
+
+#: data-usage.php:12
+msgid ""
+"To get any individual data, instead of get all of them, use this function:"
+msgstr ""
+
+#: data-usage.php:53
+msgid ""
+"There's also a widget you can use on the sidebars. <code>[follow_me_icons]</"
+"code>. It's really very simple. Only show those social networking buttons "
+"which have not left empty field."
+msgstr ""
+
+#: data-usage.php:55
+msgid ""
+"You can show the same widget through your PHP code using the <code style="
+"\"padding:5px 10px;\">\"follow_me_icons ()\"</code> function"
+msgstr ""

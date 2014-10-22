@@ -1,0 +1,507 @@
+
+
+
+.clear {
+	clear:both;
+}
+.separ {
+	margin-bottom: 10px;
+}
+
+
+#tabs{
+
+}
+	.nav-tab-wrapper {
+
+	}
+		.tabNavigation { /* <u> */
+			margin: 0;
+		}
+			.tabNavigation li {
+				display: inline-block;
+				margin: 0;
+				border-color: #DFDFDF #DFDFDF white;
+			}
+			.tabNavigation li.ui-state-active {
+				border-color: #CCC #CCC white;
+			}
+				.tabNavigation li.ui-state-active a {
+					border-width: 1px;
+					color: #464646;
+				}
+				.tabNavigation li a {
+					color: #AAA;
+					outline: none;
+				}
+
+
+				.contact-data-form .form-table {
+					border-collapse: collapse;
+					margin-top: .5em;
+					width: auto;
+					margin-bottom: -8px;
+					clear: both;
+					overflow: hidden;
+				}
+					.contact-data-form h3 {
+						margin-bottom: 20px;
+					}
+
+					.contact-data-form .fila_datos,
+					.contact-data-form .fila_edicion,
+					.contact-data-form .fila_addnew {
+						overflow: hidden;
+						float: left;
+						clear: left;
+					}
+					.contact-data-form .config .fila_datos {
+						margin-bottom: 15px;
+					}
+
+
+							.contact-data-form .fila_datos .label,
+							.contact-data-form .fila_addnew .label{
+								float: left;
+								width: 140px;
+								clear: left;
+								padding-top: 4px;
+							}
+								.contact-data-form .fila_datos .label label {
+									margin-right: 0px;
+								}
+							.contact-data-form .fila_datos .datos,
+							.contact-data-form .fila_addnew .datos {
+								float: left;
+							}
+							.contact-data-form .fila_datos .btn_edit,
+							.contact-data-form .fila_edicion .btn_edit {
+								float: left;
+								padding-top: 2px;
+								padding-left: 7px;
+
+							}
+
+
+					.contact-data-form .fila_edicion .edit_form {
+						float: left;
+						width: 620px;
+					}
+					.confirm_delete {
+						display: none;
+					}
+
+
+
+			.edit_this_btn {
+				display: block;
+				float: left;
+				width: 20px;
+				height: 20px;
+				background: transparent url(../images/gear_1.png) no-repeat center center;
+				border-radius: 5px;
+				border: 1px solid transparent;
+				outline: none;
+			}
+				.edit_this_btn:hover,
+				.edit_this_btn.active {
+					background-color: #F0F0F0;
+					border: 1px solid #DDD;
+				}
+
+			.handle {
+				margin-right: 5px;
+				cursor: move;
+				display: block;
+				float: left;
+				width: 20px;
+				height: 20px;
+				background: transparent url(../images/handler_1.png) no-repeat center center;
+				border-radius: 5px;
+				border: 1px solid transparent;
+				outline: none;
+			}
+				.handle:hover {
+					background-color: #F0F0F0;
+					border: 1px solid #DDD;
+				}
+
+		
+							.form-table .item {
+								display: block;
+								overflow: hidden;
+								margin-bottom: 16px;
+							}
+								.form-table .ui-sortable-helper {
+									-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+									box-shadow: 0 0 10px rgba(0,0,0,0.4);
+									-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+									filter: alpha(opacity=50);
+									opacity: 0.5;
+									width: 705px !important;
+									padding: 5px 0 0 5px;
+									border-radius: 5px;
+								}
+								.form-table .sortable-placeholder {
+									height: 30px;
+									display: block;
+									width: 650px;
+									background: #eee;
+									border-radius: 5px;
+									border: 1px dashed #ddd;
+								}
+
+
+
+
+
+
+
+
+
+
+
+				.params {
+					overflow: hidden;
+				}
+					.params .title {
+						font-weight: 700;
+					}
+					.params_float {
+						float: left;
+						margin-left: 50px;
+					}
+
+					#contact_data_map {
+						width: 460px;
+						height: 100px;
+					}
+
+					.contact-data-form textarea {
+						width: 500px;
+						height: 130px;
+					}
+					.contact-data-form .fila_datos input[type="text"] {
+						min-width: 500px;
+					}
+						.contact-data-form .social .datos input[type="text"] {
+							min-width: 479px;
+							float: left;
+						}
+
+
+
+				.contact-data-manage h3 { /* <div> */
+					margin-top: 0;
+				}
+
+					.contact-data-manage .data_groups {
+						margin: 0;
+					}
+						.contact-data-manage .data_group {
+							float: left;
+							margin-bottom: 50px;
+							margin-right: 30px;
+							/*padding-right: 30px;
+							border-right: 1px solid #DDD;
+							min-width: 290px;*/
+						}
+
+							.contact-data-manage .create_new_field_cont.below { /* <li> */
+								margin-top: 30px;
+							}
+								.contact-data-manage #create_new_field_above { /* <input type="button"> */
+									
+								}
+								.contact-data-manage #create_new_field_below { /* <input type="button"> */
+									
+								}
+
+
+
+
+
+
+				.contact-data-manage .postbox .delete_btn {
+					float: right;
+					width: 27px;
+					height: 30px;
+					text-align: center;
+					line-height: 30px;
+					font-size: 10px;
+					text-decoration: none;
+					padding: 0 10px;
+				}
+					.contact-data-manage .postbox .delete_btn:hover {
+						background: #D54E21;
+						color: #FFF;
+						-webkit-border-top-right-radius: 3px;
+						border-top-right-radius: 3px;
+					}
+
+				.contact-data-manage .un_dato { /* <div> */
+					overflow: hidden;
+					float: left;
+					margin-right: 16px;
+				}
+
+					.contact-data-manage label {
+						display: block;
+						float: left;
+						clear: left;
+						height: 26px;
+						line-height: 23px;
+						margin-right: 10px;
+					}
+						.contact-data-manage .postbox,
+						.contact-data-manage .sortable-placeholder {
+							/*max-width: 340px;*/
+						}
+							.contact-data-manage .sortable-placeholder {
+								height: 78px;
+							}
+							.contact-data-manage .inside {
+								overflow: hidden;
+							}
+						.contact-data-manage .un_field .title {
+							border-radius: 3px;
+							border: 1px solid #DFDFDF;
+							background: #D5D5D5;
+							margin: 10px 0;
+							padding: 5px 10px;
+						}
+							.contact-data-manage .postbox input[type="text"],
+							.contact-data-manage .postbox select {
+								float: right;
+								/*width: 200px;*/
+								height: 23px;
+							}
+										.contact-data-manage .postbox .label input {
+											width: 110px;
+										}
+										.contact-data-manage .postbox .type select {
+											width: 84px;
+										}
+										.contact-data-manage .postbox .hint input {
+											width: 180px;
+										}
+										.contact-data-manage .postbox .name input {
+											width: 100px;
+										}
+
+							.contact-data-manage .ui-sortable-helper {
+								-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+								box-shadow: 0 0 10px rgba(0,0,0,0.4);
+								opacity: 0.5;
+							}
+
+				.contact-data-manage .submit { /* <p> */
+					clear: both;
+				}
+
+				.confirm_delete { /* <div> */
+					text-align: center;
+					padding-top: 4px;
+					line-height: 20px;
+				}
+					.confirm_delete_ok { /* <a> */
+
+					}
+					.confirm_delete_ko { /* <a> */
+
+					}
+
+
+
+
+
+
+				#empty_block {
+					display: none;
+				}
+
+					.icon_preview {
+						width: 16px;
+						height: 16px;
+						float: left;
+						margin-right: 5px;
+						margin-top: 4px;
+					}
+
+				.form-table .cd_hint {
+					display: block;
+					color: #A2A2A2;
+					margin-top: 5px;
+					margin-left: 5px;
+				}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+
+			.edit_form {
+				background: #F6F6F6;
+				padding: 5px 10px;
+				border-radius: 5px;
+				overflow: hidden;
+				border: 1px solid #DFDFDF;
+				/*-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+				box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);*/
+			}
+			.edit_form .row {
+				overflow: hidden;
+			}
+				.edit_form .row.separ {
+					border-top: 1px solid #DFDFDF;
+					margin: 10px -10px;
+					padding: 10px 10px 0;
+				}
+
+				.contact-data-form .fila_edicion {
+					display: none;
+					/*margin-bottom: 24px;*/
+				}
+
+				.edit_form .delete_btn {
+					float: right;
+					width: 27px;
+					height: 30px;
+					text-align: center;
+					line-height: 30px;
+					font-size: 10px;
+					text-decoration: none;
+					padding: 0 10px;
+				}
+					.edit_form .delete_btn:hover {
+						background: #D54E21;
+						color: #FFF;
+						-webkit-border-top-right-radius: 3px;
+						border-top-right-radius: 3px;
+					}
+
+				.edit_form .un_dato { /* <div> */
+					overflow: hidden;
+					float: left;
+					margin-right: 16px;
+				}
+				.edit_form .un_dato.delete { /* <div> */
+					float: right;
+					margin-right: 2px;
+				}
+
+					.edit_form label {
+						display: block;
+						clear: left;
+						line-height: 23px;
+						margin-left: 5px;
+					}
+						.edit_form label span {
+							/*float: right;*/
+							font-size: 9px;
+							margin-right: 4px;
+							display: inline-block;
+							margin-left: 5px;
+							color: #979797;
+							background: #FFF;
+							width: 16px;
+							height: 16px;
+							text-align: center;
+							line-height: 18px;
+							border-radius: 50%;
+							margin-top: 4px;
+						}
+						.edit_form .postbox,
+						.edit_form .sortable-placeholder {
+							/*max-width: 340px;*/
+						}
+							.edit_form .sortable-placeholder {
+								height: 78px;
+							}
+							.edit_form .inside {
+								overflow: hidden;
+							}
+						.edit_form .un_field .title {
+							border-radius: 3px;
+							border: 1px solid #DFDFDF;
+							background: #D5D5D5;
+							margin: 10px 0;
+							padding: 5px 10px;
+						}
+							.edit_form input[type="text"],
+							.edit_form select {
+								/*float: right;*/
+								min-width: auto;
+								/*height: 23px;*/
+							}
+										.edit_form .label input {
+											width: 110px;
+										}
+										.edit_form .type select {
+											/*width: 84px;*/
+										}
+										.edit_form .hint input {
+											width: 180px;
+										}
+										.edit_form .name input {
+											width: 110px;
+										}
+										.edit_form .icon select {
+											/*width: 50px;*/
+										}
+										.edit_form .anchorid input {
+											width: 110px;
+										}
+										.edit_form .anchorclass input {
+											width: 217px;
+										}
+										.edit_form .anchortarget select {
+											width: 93px;
+										}
+										.edit_form .anchortitle input {
+											width: 456px;
+										}
+										.edit_form .delete_field {
+											text-decoration: none;
+											background: #F3F3F3;
+											background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#F3F3F3));
+											background-image: -webkit-linear-gradient(top,#FFF,#F3F3F3);
+											background-image: -moz-linear-gradient(top,#FFF,#F3F3F3);
+											background-image: -ms-linear-gradient(top,#FFF,#F3F3F3);
+											background-image: -o-linear-gradient(top,#FFF,#F3F3F3);
+											background-image: linear-gradient(to bottom,#FFF,#F3F3F3);
+											border-color: #999;
+											color: #222;
+											text-shadow: 0 1px 0 #FFF;
+											display: inline-block;
+											text-decoration: none;
+											font-size: 12px;
+											line-height: 19px;
+											margin: 0;
+											padding: 0 10px 1px;
+											cursor: pointer;
+											border-width: 1px;
+											border-style: solid;
+											-webkit-border-radius: 3px;
+											-webkit-appearance: none;
+											border-radius: 3px;
+											white-space: nowrap;
+											-webkit-box-sizing: border-box;
+											-moz-box-sizing: border-box;
+											box-sizing: border-box;
+											margin-top: 24px;
+										}
+
+
+
+							.edit_form .ui-sortable-helper {
+								-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+								box-shadow: 0 0 10px rgba(0,0,0,0.4);
+								opacity: 0.5;
+								width: 640px;
+							}

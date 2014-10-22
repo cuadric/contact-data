@@ -1,0 +1,5 @@
+.follow_me_icons_container.circular-gray a {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		opacity:1;
+}
